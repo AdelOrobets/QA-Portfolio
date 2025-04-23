@@ -4,8 +4,8 @@ TEST PLAN (STP)		IEEE 829
 Project		Tticket Service	
 
 Effective Date	        Version				        Change description	     Originator
-2-Jan-25	      STP_Ticket_Service_v1.0				  First creation	      Adel Orobets
-5-Jan-25	      STP_Ticket_Service_v1.1				  Update testplan	      Adel Orobets
+2-Jan-25	      STP_Ticket_Service_v1.0		          First creation	    Adel Orobets
+5-Jan-25	      STP_Ticket_Service_v1.1		         Update testplan	    Adel Orobets
 						
 2. INTRODUCTION 						
 Ticket Service is a web application that allows users to register, log in, view upcoming events,
@@ -33,63 +33,63 @@ The purpose of this document is to define the scope for testing the Ticket Servi
 Number	  Item to Test			                              Test Description		
 Role: User						
 TS01	User registration		  TC01	Registration form opens successfully		
-			                      TC02	Check that the [labels] and [placeholder text] are clear and informative		
-			                      TC03	Check that the mandatory [form fields] are marked with an asterisk (*)		
-			                      TC04	User can register successfully with valid credentials		
-			                      TC05	User cannot register with invalid credentials		
-			                      TC06	Test input data validation in the form fields:		
-					                          Invalid data (incorrect format, invalid characters, spaces)	
-					                          Check minimum and maximum length	
-					                          Check the  boundary value of length input 	
-					                          Check input case-sensitive data	
-					                          Empty fields: submit the form without filling in mandatory fields	
-					                          SQL code in form fields to check for vulnerabilities	
-					                          JavaScript code in text fields	
-			                      TC07	Error messages are displayed for invalid data entry		
-			                      TC08	Check the functionality of the password visibility toggle		
-			                      TC09	Check that the password is not displayed as plain text by default when typing it		
-			                      TC10	Check the restriction on minimum password length and the presence of a combination of capital letters, 
-                                  lowercase letters, digits, and special symbols		
-			                      TC11	Attempt to register with weak passwords		
-			                      TC12	Check that the form cannot be submitted without confirming the password		
-			                      TC13	Check that passwords are encrypted during transmission		
-			                      TC14	Check that the form cannot be submitted without accepting the Privacy Policy and Terms of Service		
-			                      TC15	Check the presence and proper functioning of the Captcha		
-			                      TC16	Check the correct operation of the [email confirmation] process		
-			                      TC17	Check the correct operation of the registration completion process		
-			                      TC18	Duplicate account registration		
-			                      TC19	Large number of simultaneous registrations, simulating load		
-			                      TC20	System behavior when the server is down during registration		
-			                      TC21	Chek that registration form displays and functions correctly on all devices and browsers		
+			                  TC02	Check that the [labels] and [placeholder text] are clear and informative		
+			                  TC03	Check that the mandatory [form fields] are marked with an asterisk (*)		
+			                  TC04	User can register successfully with valid credentials		
+			                  TC05	User cannot register with invalid credentials		
+			                  TC06	Test input data validation in the form fields:		
+					        Invalid data (incorrect format, invalid characters, spaces)	
+					        Check minimum and maximum length	
+					        Check the boundary value of length input 	
+					        Check input case-sensitive data	
+					        Empty fields: submit the form without filling in mandatory fields	
+					        SQL code in form fields to check for vulnerabilities	
+					        JavaScript code in text fields	
+			                  TC07	Error messages are displayed for invalid data entry		
+			                  TC08	Check the functionality of the password visibility toggle		
+			                  TC09	Check that the password is not displayed as plain text by default when typing it		
+			                  TC10	Check the restriction on minimum password length and the presence of a combination of capital letters, 
+                                                lowercase letters, digits, and special symbols		
+			                  TC11	Attempt to register with weak passwords		
+			                  TC12	Check that the form cannot be submitted without confirming the password		
+			                  TC13	Check that passwords are encrypted during transmission		
+			                  TC14	Check that the form cannot be submitted without accepting the Privacy Policy and Terms of Service		
+			                  TC15	Check the presence and proper functioning of the Captcha		
+			                  TC16	Check the correct operation of the [email confirmation] process		
+			                  TC17	Check the correct operation of the registration completion process		
+			                  TC18	Duplicate account registration		
+			                  TC19	Large number of simultaneous registrations, simulating load		
+			                  TC20	System behavior when the server is down during registration		
+			                  TC21	Chek that registration form displays and functions correctly on all devices and browsers		
 						
-TS02	User authorization		TC22	Login form opens successfully		
-			                      TC23	Check that [labels] and [placeholder text] are clear and informative		
-			                      TC24	Check that mandatory [form fields] are marked with an asterisk (*)		
-			                      TC25	User can successfully log in with valid credentials		
-			                      TC26	Users cannot log in with invalid or expired credentials		
-			                      TC27	Input data validation testing:		
-					                        Incorrect login or password format: invalid characters, spaces	
-					                        Check minimum and maximum length	
-					                        Check the  boundary value of length input 	
-					                        Check input case-sensitive data	
-					                        Empty fields: submit the form without filling in mandatory fields	
-					                        SQL injections in form fields	
-					                        JavaScript in form fields	
-			                      TC28	Check that error message display		
-			                      TC29	No hints for vulnerable data (if the password is invalid then the hint is - login or password is invalid)		
-			                      TC30	[Remember Me] checkbox functions as expected		
-			                      TC31	Check data transmission security (HTTPS, passwords are not in plain text)		
-			                      TC32	Check that user session expires after a certain period of inactivity		
-			                      TC33	Logging in again using old cookies or session identifiers after logging out		
-			                      TC34	Lockout after multiple failed login attempts (brute force attack)		
-			                      TC35	Check that a bot protection mechanism appears after multiple failed login attempts		
-			                      TC36	Check that the system allows account recovery after lockout		
-			                      TC37	Check that the system allows password reset with [Forgot Password] link		
-			                      TC38	The user can successfully log in via OAuth		
-			                      TC39	Check how the system protects data during OAuth login		
-			                      TC40	Large number of simultaneous authorizations simulating the load		
-			                      TC41	System behavior when the server is down during login		
-			                      TC42	Chek that Login form displays and functions correctly on all devices and browsers		
+TS02	User authorization		  TC22	Login form opens successfully		
+			                  TC23	Check that [labels] and [placeholder text] are clear and informative		
+			                  TC24	Check that mandatory [form fields] are marked with an asterisk (*)		
+			                  TC25	User can successfully log in with valid credentials		
+			                  TC26	Users cannot log in with invalid or expired credentials		
+			                  TC27	Input data validation testing:		
+					        Incorrect login or password format: invalid characters, spaces	
+					        Check minimum and maximum length	
+					        Check the  boundary value of length input 	
+					        Check input case-sensitive data	
+					        Empty fields: submit the form without filling in mandatory fields	
+					        SQL injections in form fields	
+					        JavaScript in form fields	
+			                  TC28	Check that error message display		
+			                  TC29	No hints for vulnerable data (if the password is invalid then the hint is - login or password is invalid)		
+			                  TC30	[Remember Me] checkbox functions as expected		
+			                  TC31	Check data transmission security (HTTPS, passwords are not in plain text)		
+			                  TC32	Check that user session expires after a certain period of inactivity		
+			                  TC33	Logging in again using old cookies or session identifiers after logging out		
+			                  TC34	Lockout after multiple failed login attempts (brute force attack)		
+			                  TC35	Check that a bot protection mechanism appears after multiple failed login attempts		
+			                  TC36	Check that the system allows account recovery after lockout		
+			                  TC37	Check that the system allows password reset with [Forgot Password] link		
+			                  TC38	The user can successfully log in via OAuth		
+			                  TC39	Check how the system protects data during OAuth login		
+			                  TC40	Large number of simultaneous authorizations simulating the load		
+			                  TC41	System behavior when the server is down during login		
+			                  TC42	Chek that Login form displays and functions correctly on all devices and browsers		
 						
 TS03	Viewing the list of events		TC43	Event list loads successfully		
 			                              TC44	All available events are displayed correctly		
