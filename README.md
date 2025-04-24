@@ -23,7 +23,8 @@ and hands-on experience with test design, bug reporting, and QA tools.
 
 ### [Ticket Service](https://ticket-service-69443.firebaseapp.com/)
 - Web application for booking tickets  
-- Created STP, Test Cases, and Bug Reports  
+- Created STP, [Test Cases](https://docs.google.com/spreadsheets/d/1tRmffFVwMkwzR69gfZ2MNPRu9wdIMGta/edit?usp=drive_link&ouid=102737440051246418544&rtpof=true&sd=true)
+, and Bug Reports  
 - Created autotests for the Login form  
 - Performed manual testing and wrote test documentation  
 - Used Jira for documentation and issue tracking  
