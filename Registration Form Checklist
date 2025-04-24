@@ -1,0 +1,63 @@
+📋 Registration Form Checklist – Mobile (TC17)
+
+🔧 General Display Checks:
+- The form displays correctly on iPhone 15 Pro Max
+- Fields fit the screen without being cut off
+- Text is readable and properly scaled
+- Buttons are clickable and within screen boundaries
+- Keyboard does not cover input fields
+
+📤 Form Fields:
+
+1. **Name Field**
+- User can enter a Тame
+- Minimum and maximum character limits work correctly
+- Error appears when the field is empty
+- Error appears for numbers/special characters
+
+2. **Surname Field**
+- User can enter a Surname
+- Minimum and maximum character limits work correctly
+- Error appears when the field is empty
+- Error appears for numbers/special characters
+
+3. **Email Field**
+- Valid email format is accepted
+- Error for invalid email (missing @, spaces)
+- Error when the field is empty
+
+4. **Password Field**
+- Minimum 8 characters
+- Must contain uppercase, digits, symbols
+- Toggle password visibility (eye icon)
+- Error when requirements are not met
+- Error when the field is empty
+
+5. **Phone Number Field**
+- Only Israeli format is accepted
+- Error when entering letters
+- Error for incorrect length
+
+📎 Checkboxes and Agreements
+- "I agree to the Privacy Policy and Terms of Service" checkbox is visible
+- Form cannot be submitted without checking the box
+- Text links to actual documents (Privacy Policy, Terms)
+
+🚀 "Register" Button
+- Enabled only when all required fields are filled correctly
+- Disabled if any required field is invalid or empty
+- On success, redirects or navigates to the appropriate page
+- Success message is displayed after registration
+- Error message appears when registration fails
+
+📲 UX/UI Checks:
+- Input is smooth with no lag
+- Keyboard hides when tapping outside the input field
+- Autofill works
+- Tapping the button doesn't trigger multiple submissions
+
+🧪 Additional Checks:
+- Behavior under slow internet connection
+- Error message when offline
+- Behavior when rotating the screen (if supported)
+- Form fields are cleared when returning to the page
