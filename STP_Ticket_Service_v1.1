@@ -37,8 +37,9 @@ TS01	User registration		  TC01	Registration form opens successfully
 			                  TC03	Check that the mandatory [form fields] are marked with an asterisk (*)		
 			                  TC04	User can register successfully with valid credentials
 		     	                        Check the presence and proper functioning of the Captcha
-			                  TC05	User cannot register with invalid credentials		
-			                  TC06	Test input data validation in the form fields (Error messages are displayed for invalid data entry):		
+				          TC05	Check the correct operation of the [email confirmation] process	
+			                  TC06	User cannot register with invalid credentials		
+			                  TC07	Test input data validation in the form fields (Error messages are displayed for invalid data entry):		
 					        Invalid data (incorrect format, invalid characters, spaces)	
 					        Check minimum and maximum length	
 					        Check the boundary value of length input 	
@@ -47,16 +48,15 @@ TS01	User registration		  TC01	Registration form opens successfully
 					        SQL code in form fields to check for vulnerabilities	
 					        JavaScript code in text fields				
 			                  TC08	Check that the password is not displayed as plain text by default when typing it
-			                  TC09	 Check the functionality of the password visibility toggle				
-			                  TC12	Check that the form cannot be submitted without confirming the password		
-			                  TC13	Check that passwords are encrypted during transmission		
-			                  TC14	Check that the form cannot be submitted without accepting the Privacy Policy and Terms of Service		
-			                  TC16	Check the correct operation of the [email confirmation] process		
-			                  TC17	Check the correct operation of the registration completion process		
-			                  TC18	Duplicate account registration		
-			                  TC19	Large number of simultaneous registrations, simulating load		
-			                  TC20	System behavior when the server is down during registration		
-			                  TC21	Chek that registration form displays and functions correctly on all devices and browsers		
+			                  TC09	Check the functionality of the password visibility toggle				
+			                  TC10	Check that the form cannot be submitted without confirming the password		
+			                  TC11	Check that passwords are encrypted during transmission		
+			                  TC12	Check that the form cannot be submitted without accepting the Privacy Policy and Terms of Service	 	
+			                  TC13	Check the correct operation of the registration completion process		
+			                  TC14	Duplicate account registration		
+			                  TC15	Large number of simultaneous registrations, simulating load		
+			                  TC16	System behavior when the server is down during registration		
+			                  TC17	Chek that registration form displays and functions correctly on all devices and browsers		
 						
 TS02	User authorization		  TC22	Login form opens successfully		
 			                  TC23	Check that [labels] and [placeholder text] are clear and informative		
