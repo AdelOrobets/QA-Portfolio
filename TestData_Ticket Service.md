@@ -1,4 +1,4 @@
-🧾 Test Design – Registration Form (Ticket Service)
+🧾 Test Data – Registration Form (Ticket Service)
 
 📌 Description
 This document provides test cases for the **registration form** of the Ticket Service project.  
