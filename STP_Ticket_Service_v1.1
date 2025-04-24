@@ -135,146 +135,146 @@ TS05	Adding tickets to the cart	   TS 5.1 Adding to cart for available Events fo
 			                    TC77  Check for clearing the cart after the reserve time has expired		
 			                    TC78  Check correct display of the cart contents after removing an event from the cart		
 						
-TS06	Selecting seats on the seating plan		TS 6.1  Seating plan visualization check	
-			                                      TC79	Checking the correct display of available and occupied seats on the plan		
-			                                      TC80	Occupied seats are visually highlighted (e.g., colored) on the seating plan		
-			                                      TC81	Available seats are visually highlighted (e.g., colored) on the seating plan		
-				                                    TS 6.2  Basic seat selection check	
-			                                      TC82	Attempting to select a seat for an unregistered user (guest mode)		
-			                                      TC83	For a registered user:		
-					                                        Selecting a single available seat on the plan	
-					                                        Selecting multiple seats next to each other	
-					                                        Selecting available seats in different parts of the venue	
-					                                        Selected seats are visually highlighted (e.g., colored) on the seating plan	
-					                                  TS 6.3  Check for seat quantity limitations	
-			                                      TC84	Selecting the maximum number of seats allowed for one user		
-			                                      TC85	Attempting to select more seats than allowed for one user		
-				                                    TS 6.4  Seat availability check	
-			                                      TC86	Attempting to select a single an already occupied seat		
-			                                      TC87	Attempting to select multiple seats, one of which is unavailable		
-					                                  TS 6.5  Seat selection cancellation check	
-			                                      TC88	Canceling seat selection		
-			                                      TC89	Canceling the selection of multiple seats		
-			                                      TC90	Cancelled seats are visually highlighted (e.g. by color) on the seating plan		
+TS06	Selecting seats on the seating plan	TS 6.1  Seating plan visualization check	
+			                        TC79  Checking the correct display of available and occupied seats on the plan		
+			                        TC80  Occupied seats are visually highlighted (e.g., colored) on the seating plan		
+			                        TC81  Available seats are visually highlighted (e.g., colored) on the seating plan		
+				                TS 6.2  Basic seat selection check	
+			                        TC82  Attempting to select a seat for an unregistered user (guest mode)		
+			                        TC83  For a registered user:		
+					              Selecting a single available seat on the plan	
+					              Selecting multiple seats next to each other	
+					              Selecting available seats in different parts of the venue	
+					              Selected seats are visually highlighted (e.g., colored) on the seating plan	
+					        TS 6.3  Check for seat quantity limitations	
+			                        TC84  Selecting the maximum number of seats allowed for one user		
+			                        TC85  Attempting to select more seats than allowed for one user		
+				                TS 6.4  Seat availability check	
+			                        TC86  Attempting to select a single an already occupied seat		
+			                        TC87  Attempting to select multiple seats, one of which is unavailable		
+					        TS 6.5  Seat selection cancellation check	
+			                        TC88  Canceling seat selection		
+			                        TC89  Canceling the selection of multiple seats		
+			                        TC90  Cancelled seats are visually highlighted (e.g. by color) on the seating plan		
 						
-TS07	Placing an order and making a payment		TS 7.1  Order Placement	
-			                                        TC91	Placing an order as a guest user		
-			                                        TC92	Placing an order as a logged-in user		
-			                                        TC93	Placing an order with valid Events		
-			                                        TC94	Placing an order with invalid Events		
-			                                        TC95	Placing an order with an empty cart		
-					                                    TS 7.2  Payment Gateway Connection and Configuration	
-			                                        TC96	Successful connection to the payment gateway		
-			                                        TC97	Unsuccessful connection to the payment gateway (e.g., gateway is unavailable)		
-			                                        TC98	Verify correct API configurations (keys, security settings)		
-					                                    TS 7.3  Successful Payment Processing	
-			                                        TC99	Successful payment using a credit card		
-			                                        TC100	Successful payment using PayPal or another alternative payment method		
-			                                        TC101	Successful payment with a saved payment method		
-					                                    TS 7.4 Payment Failure	
-			                                        TC102	Payment failure due to incorrect credit card details		
-			                                        TC103	Payment failure due to insufficient funds		
-			                                        TC104	Payment failure due to expired card		
-			                                        TC105	Payment failure due to bank refusal		
-			                                        TC106	Payment failure due to issues with the payment gateway (e.g., technical error)		
-					                                    TS 7.5  Payment Processing Time	
-			                                        TC107	Checking the processing time for a successful payment		
-			                                        TC108	Checking the processing time for payment failure		
-					                                    TS 7.6  Security Checks	
-			                                        TC109	Check for data transmission over a secure connection (HTTPS)		
-			                                        TC110	Check for credit card data encryption		
-			                                        TC111	Check protection against CSRF and XSS attacks		
-			                                        TC112	Check two-factor authentication (if applicable)		
-					                                    TS 7.7  Payment Cancellations	
-			                                        TC113	Successful payment cancellation		
-			                                        TC114	Payment cancellation failure		
-					                                    TS 7.8  Logging and Reporting	
-			                                        TC115	Verify correct logging of payment transactions		
-			                                        TC116	Payment gateway reporting accuracy		
-					                                    TS 7.9 Cross-Device and Cross-Browser Testing	
-			                                        TC117	Verify payment gateway functionality across different browsers		
-			                                        TC118	Verify payment gateway functionality on mobile devices		
+TS07	Placing an order and making a payment	TS 7.1  Order Placement	
+			                        TC91	Placing an order as a guest user		
+			                        TC92	Placing an order as a logged-in user		
+			                        TC93	Placing an order with valid Events		
+			                        TC94	Placing an order with invalid Events		
+			                        TC95	Placing an order with an empty cart		
+					        TS 7.2  Payment Gateway Connection and Configuration	
+			                        TC96	Successful connection to the payment gateway		
+			                        TC97	Unsuccessful connection to the payment gateway (e.g., gateway is unavailable)		
+			                        TC98	Verify correct API configurations (keys, security settings)		
+					        TS 7.3  Successful Payment Processing	
+			                        TC99	Successful payment using a credit card		
+			                        TC100	Successful payment using PayPal or another alternative payment method		
+			                        TC101	Successful payment with a saved payment method		
+					        TS 7.4 Payment Failure	
+			                        TC102	Payment failure due to incorrect credit card details		
+			                        TC103	Payment failure due to insufficient funds		
+			                        TC104	Payment failure due to expired card		
+			                        TC105	Payment failure due to bank refusal		
+			                        TC106	Payment failure due to issues with the payment gateway (e.g., technical error)		
+					        TS 7.5  Payment Processing Time	
+			                        TC107	Checking the processing time for a successful payment		
+			                        TC108	Checking the processing time for payment failure		
+					        TS 7.6  Security Checks	
+			                        TC109	Check for data transmission over a secure connection (HTTPS)		
+			                        TC110	Check for credit card data encryption		
+			                        TC111	Check protection against CSRF and XSS attacks		
+			                        TC112	Check two-factor authentication (if applicable)		
+					        TS 7.7  Payment Cancellations	
+			                        TC113	Successful payment cancellation		
+			                        TC114	Payment cancellation failure		
+					        TS 7.8  Logging and Reporting	
+			                        TC115	Verify correct logging of payment transactions		
+			                        TC116	Payment gateway reporting accuracy		
+					        TS 7.9 Cross-Device and Cross-Browser Testing	
+			                        TC117	Verify payment gateway functionality across different browsers		
+			                        TC118	Verify payment gateway functionality on mobile devices		
 						
-TS08	Receiving a ticket		                  TC119	Successful ticket issuance after payment		
-			                                        TC120	User receives a ticket to the event that was selected and paid		
-			                                        TC121	Ticket issuance with different payment methods		
-			                                        TC122	Correct ticket details		
-			                                        TC123	Availability of the ticket in PDF and mobile versions		
-			                                        TC124	Ticket does not appear for unsuccessful payment		
-			                                        TC125	Resending the ticket to email		
+TS08	Receiving a ticket		        TC119	Successful ticket issuance after payment		
+			                        TC120	User receives a ticket to the event that was selected and paid		
+			                        TC121	Ticket issuance with different payment methods		
+			                        TC122	Correct ticket details		
+			                        TC123	Availability of the ticket in PDF and mobile versions		
+			                        TC124	Ticket does not appear for unsuccessful payment		
+			                        TC125	Resending the ticket to email		
 						
-TS09	Ticket cancellation		                  TC126	Successful ticket cancellation before the event starts and email confirmation 		
-			                                        TC127	Attempting to cancel a ticket after the event has started		
-		                                        	TC128	Attempting to cancel a non-refundable ticket		
-			                                        TC129	Refund processing after ticket cancellation		
-			                                        TC130	Ticket cancellation limit per day		
+TS09	Ticket cancellation		        TC126	Successful ticket cancellation before the event starts and email confirmation 		
+			                        TC127	Attempting to cancel a ticket after the event has started		
+		                                TC128	Attempting to cancel a non-refundable ticket		
+			                        TC129	Refund processing after ticket cancellation		
+			                        TC130	Ticket cancellation limit per day		
 						
-TS10	Refund processing	                     	TC131	Full refund to the original payment method		
-			                                        TC132	No refund after the cancellation deadline		
-		                                        	TC133	Refund processing time verification		
-		                                        	TC134	Refund handling in case of a technical failure		
+TS10	Refund processing	                TC131	Full refund to the original payment method		
+			                        TC132	No refund after the cancellation deadline		
+		                                TC133	Refund processing time verification		
+		                                TC134	Refund handling in case of a technical failure		
 						
 Role: Manager						
-TS11	Manager Authorization in the System	   	TC135	Login form opens successfully		
-			                                        TC136	Check that [labels] and [placeholder text] are clear and informative		
-			                                        TC137	Check that mandatory [form fields] are marked with an asterisk (*)		
-			                                        TC138	Manager can successfully log in with valid credentials		
-			                                        TC139	Manager cannot log in with invalid		
-		                                        	TC140	Input data validation testing:		
-				                                          	Check minimum and maximum length	
-					                                          Check the  boundary value of length input	
-					                                          Check input case-sensitive data	
-					                                          Empty fields: submit the form without filling in mandatory fields	
-					                                          Incorrect login or password format: invalid characters, spaces	
-					                                          SQL injections in form fields	
-					                                          JavaScript in form fields	
-			                                       TC141	Check that error message display		
-			                                       TC142	No hints for vulnerable data (if the password is invalid then the hint is - 
-                                                    login or password is invalid)		
-			                                       TC143	[Remember Me] checkbox functions as expected		
-			                                       TC144	Check data transmission security (HTTPS, passwords are not in plain text)		
-			                                       TC145	Testing Role-based access control (RBAC) to restrict functions based on permissions		
-			                                       TC146	Check that user session expires after a certain period of inactivity		
-			                                       TC147	Logging in again using old cookies or session identifiers after logging out		
-			                                       TC148	Lockout after multiple failed login attempts (brute force attack)		
-			                                       TC149	Check that a bot protection mechanism appears after multiple failed login attempts		
-			                                       TC150	Check that the system allows account recovery after lockout		
-			                                       TC151	Check logging authentication attempts and failed login attempts		
-			                                       TC152	Check that the system allows password recovery and reset functionality		
-			                                       TC153	Large number of simultaneous authorizations simulating the load		
-			                                       TC154	System behavior when the server is down during login		
-			                                       TC155	Chek that Login form displays and functions correctly on all devices and browsers		
+TS11	Manager Authorization in the System	TC135	Login form opens successfully		
+			                        TC136	Check that [labels] and [placeholder text] are clear and informative		
+			                        TC137	Check that mandatory [form fields] are marked with an asterisk (*)		
+			                        TC138	Manager can successfully log in with valid credentials		
+			                        TC139	Manager cannot log in with invalid		
+		                                TC140	Input data validation testing:		
+				                        Check minimum and maximum length	
+					                Check the  boundary value of length input	
+					                Check input case-sensitive data	
+					                Empty fields: submit the form without filling in mandatory fields	
+					                Incorrect login or password format: invalid characters, spaces	
+					                SQL injections in form fields	
+					                JavaScript in form fields	
+			                        TC141	Check that error message display		
+			                        C142	No hints for vulnerable data (if the password is invalid then the hint is - 
+                                                        login or password is invalid)		
+			                        TC143	[Remember Me] checkbox functions as expected		
+			                        TC144	Check data transmission security (HTTPS, passwords are not in plain text)		
+			                        TC145	Testing Role-based access control (RBAC) to restrict functions based on permissions		
+			                        TC146	Check that user session expires after a certain period of inactivity		
+			                        TC147	Logging in again using old cookies or session identifiers after logging out		
+			                        TC148	Lockout after multiple failed login attempts (brute force attack)		
+			                        TC149	Check that a bot protection mechanism appears after multiple failed login attempts		
+			                        TC150	Check that the system allows account recovery after lockout		
+			                        TC151	Check logging authentication attempts and failed login attempts		
+			                        TC152	Check that the system allows password recovery and reset functionality		
+			                        TC153	Large number of simultaneous authorizations simulating the load		
+			                        TC154	System behavior when the server is down during login		
+			                        TC155	Chek that Login form displays and functions correctly on all devices and browsers		
 						
-TS12	User and Role Management		           TC156	Adding new employees		
-			                                       TC157	Monitoring employee actions (logs of sales, refunds)		
-			                                       TC158	Restricting access to certain functions		
+TS12	User and Role Management	        TC156	Adding new employees		
+			                        TC157	Monitoring employee actions (logs of sales, refunds)		
+			                        TC158	Restricting access to certain functions		
 						
-TS13	Event Management		                   TC159	Adding new events to the system		
-			                                       TC160	Editing event information (venue, date, description)		
-			                                       TC161	Managing seating arrangements (reservations, seat map adjustments)		
+TS13	Event Management		        TC159	Adding new events to the system		
+			                        TC160	Editing event information (venue, date, description)		
+			                        TC161	Managing seating arrangements (reservations, seat map adjustments)		
 						
-TS14	Ticket Management		                   TC162	Creating new tickets for offline sales		
-			                                       TC163	Editing ticket details (price, date, category, seat)		
-			                                       TC164	Canceling and refunding tickets on behalf of customers		
-			                                       TC165	Transferring tickets to another date/event		
+TS14	Ticket Management		        TC162	Creating new tickets for offline sales		
+			                        TC163	Editing ticket details (price, date, category, seat)		
+			                        TC164	Canceling and refunding tickets on behalf of customers		
+			                        TC165	Transferring tickets to another date/event		
 						
-TS15	Offline Ticket Sales		               TC166	Generating and printing tickets for customers		
-			                                       TC167	Sending electronic tickets via email after offline purchase		
-			                                       TC168	Selecting payment methods (cash, card, bank transfer)		
-			                                       TC169	Issuing receipts and invoices		
+TS15	Offline Ticket Sales		        TC166	Generating and printing tickets for customers		
+			                        TC167	Sending electronic tickets via email after offline purchase		
+			                        TC168	Selecting payment methods (cash, card, bank transfer)		
+			                        TC169	Issuing receipts and invoices		
 						
-TS16	Order and Customer Management		       TC170	Viewing customer purchase history		
-			                                       TC171	Modifying order details		
-			                                       TC172	Handling group bookings and corporate reservations		
-			                                       TC173	Applying discounts and promotional offers to tickets		
+TS16	Order and Customer Management		TC170	Viewing customer purchase history		
+			                        TC171	Modifying order details		
+			                        TC172	Handling group bookings and corporate reservations		
+			                        TC173	Applying discounts and promotional offers to tickets		
 						
-TS17	Processing Refunds and Cancellations	 TC174	Manually processing refunds and ticket exchanges		
-			                                       TC175	Checking refund status and reinitiating processing if needed		
-			                                       TC176	Creating refund requests for payment systems		
+TS17	Processing Refunds and Cancellations	TC174	Manually processing refunds and ticket exchanges		
+			                        TC175	Checking refund status and reinitiating processing if needed		
+			                        TC176	Creating refund requests for payment systems		
 						
-TS18	Generating Reports and Analytics		   TC177	Viewing sales statistics (online/offline)		
-			                                       TC178	Reports on revenue, number of tickets sold		
-			                                       TC179	Analyzing ticket demand and sales trends		
+TS18	Generating Reports and Analytics	TC177	Viewing sales statistics (online/offline)		
+			                        TC178	Reports on revenue, number of tickets sold		
+			                        TC179	Analyzing ticket demand and sales trends		
 						
 5. FEATURES NOT TO BE TESTED						
 Internal workings of the payment gateway (only integration is tested)						
@@ -354,12 +354,12 @@ Slow internet or unstable connection
 Windows 10 Pro         macOS Big Sur
    Desktop              MacBook Pro	       Android 14/15/17	        iOS 16/17/18			
  Display: 27"	          Display: 13"	         Display:                Display:
-                                          6.1" / 6.8" / 8.0"	    6.1" / 6.7" / 6.9"			
-     Edge	                Safari	              Chrome	                Chrome			
+                                              6.1" / 6.8" / 8.0"      6.1" / 6.7" / 6.9"			
+    Edge	           Safari	          Chrome	         Chrome			
 						
 
 Screen size	  Model iPhone	       	iOS 16/17/18		   Size in pixels	
-6,1"	          iPhone 12		           iOS 16		         2532 × 1170	
+6,1"	          iPhone 12		         iOS 16		         2532 × 1170	
 6.7"	      iPhone Pro Max 15 	     	 iOS 17		         2778 × 1284	
 6.9"	        iPhone 16 Pro		         iOS 18		         3120 × 1440	
 						
@@ -367,12 +367,12 @@ Screen size	  Model iPhone	       	iOS 16/17/18		   Size in pixels
 Screen size	  Model iPhone		        Android 14/15/17		  Size in pixels	
 6.1"	       Google Pixel 9		                14		          2400 × 1080	
 6.8"	    Samsung Galaxy S25 Ultra		        15		          3200 × 1440	
-8.0"	    Google Pixel 9 Pro Fold		          17		          2208 × 1840	
+8.0"	    Google Pixel 9 Pro Fold		        17		          2208 × 1840	
 						
 10.1 TESTING TOOLS						
 Task Tracker: 		      Jira				
-API Testing Tools: 		  Postman				
-Load Testing Tools: 		JMeter				
+API Testing Tools: 	      Postman				
+Load Testing Tools: 	      JMeter				
 Bug Reporting: 		      Jira				
 						
 11. TESTING TASKS						
