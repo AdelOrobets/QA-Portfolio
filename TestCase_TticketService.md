@@ -1,7 +1,8 @@
 📊 Test Cases - TS01 User Registration
 
-You can view the full TestCaseSuite_v1.2 in this Google Spreadsheet:  
-[![View in Google Sheets](https://img.shields.io/badge/View%20in-Google%20Sheets-green?style=for-the-badge&logo=googlesheets)](https://docs.google.com/spreadsheets/d/1tRmffFVwMkwzR69gfZ2MNPRu9wdIMGta/preview)
+You can view the full TestCaseSuite_v1.2 in this Google Spreadsheet: 
+
+[View in Google Sheets](https://docs.google.com/spreadsheets/d/1tRmffFVwMkwzR69gfZ2MNPRu9wdIMGta/edit?usp=drive_link&ouid=102737440051246418544&rtpof=true&sd=true)
 
 This repository presents a detailed collection of *manual test cases* developed for the *User Registration* functionality. 
 The test suite is based on real-world scenarios and reflects my approach to structured and thoughtful test design. 
