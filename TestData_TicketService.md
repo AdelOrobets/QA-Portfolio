@@ -32,7 +32,7 @@ Each test case checks both valid and invalid inputs to ensure the form handles d
 | TC13  | Email      | test@example.com               | ✅ Valid                         | EC Positive             |
 | TC14  | Email      | testexample.com                | ❌ Invalid (missing @)           | EC Negative             |
 | TC15  | Email      | test@.com                      | ❌ Invalid (missing domain)      | EC Negative             |
-| TC16  | Email      | te st@mail.com                 | ❌ Invalid (space)               | EC Negative             |
+| TC16  | Email      | te st@gmail.com                 | ❌ Invalid (space)               | EC Negative             |
 | TC17  | Password   | Pass123!                       | ✅ Valid                         | EC Positive             |
 | TC18  | Password   | password                       | ❌ Invalid (no digit/symbol)     | EC Negative             |
 | TC19  | Password   | pass1234                       | ❌ Invalid (no uppercase/symbol) | EC Negative             |
@@ -74,5 +74,5 @@ These test combinations include at least one invalid input and are expected to f
 | IC07     | Alice      | Sm!th        | test8@example.com   | Pass123!                  | 0501234567   | Surname (special char)        | 
 | IC08     | Alice      | Smith        | test9@example.com   | A1!b2c3d4e5f6g7h8i9j0K    | 0501234567   | Password (too long)           | 
 | IC09     | Alice      | Smith        | test10@example.com  | Pass123!                  | 05012abc67   | Phone (letters inside)        | 
-| IC10     | A          | S            | te st@mail.com      | pass1234                  | 12345678901  | All fields invalid            | 
+| IC10     | A          | S            | te st@gmail.com      | pass1234                  | 12345678901  | All fields invalid            | 
 
