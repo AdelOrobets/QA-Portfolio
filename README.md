@@ -1,7 +1,7 @@
 # QA Portfolio – Adel Orobets
 
-👋 Hello! I'm a Junior Manual QA Engineer. This portfolio showcases my testing projects, documentation examples,
-and hands-on experience with test design, bug reporting, and QA tools.
+👋 Hello! I'm a Junior Manual QA Engineer. This portfolio showcases my testing projects, documentation examples
+and hands-on experience with test design, bug reporting and QA tools.
 
 ---
 
