@@ -7,7 +7,7 @@ and hands-on experience with test design, bug reporting, and QA tools.
 
 ## 🔧 Skills
 
-- Understanding of SDLC/STLC and Agile methodologies (Scrum, Kanban)
+- Understanding of [SDLC and STLC](https://github.com/adelorobets/QA-Portfolio/blob/main/SDLC_and_STLC.md) and Agile methodologies (Scrum, Kanban)
 - Requirements Analysis, Test Design and Test Planning
 - Test documentation development: Test Plan, Test Cases, Test Data, Checklists, Bug Reports
 - Manual testing of web and desktop applications
