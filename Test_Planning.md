@@ -16,7 +16,7 @@ The goal is to establish a structured and efficient strategy to ensure product q
 
 ---
 
-### 🔹 Typical Contents of a Test Plan (IEEE 829 format)
+### 🔹 Typical Contents of a Test Plan (IEEE 829)
 
 | Section                            | Description                                       |
 | ---------------------------------- | ------------------------------------------------- |
