@@ -15,7 +15,7 @@ and hands-on experience with test design, bug reporting and QA tools.
 - Basic knowledge of SQL and Java
 - Working with DevTools for analyzing (HTML, JavaScript, CSS, Network, HTTP requests, Tokens, Logs, and Performance)
 - Experience with Jira for task management and bug tracking
-- Currently learning test automation with Selenium - autotest [for Registration Form](https://github.com/adelorobets/Webinar_project_QA47/blob/master/src/main/java/experiments/DemogaPracticeFormTest.java) 
+- Currently learning test automation with Selenium - autotest [code for Registration Form](https://github.com/adelorobets/Webinar_project_QA47/blob/master/src/main/java/experiments/DemogaPracticeFormTest.java) autotest [Screencast](https://drive.google.com/file/d/1Q9qj3p31CDJh19HVHowTQt1QwadsVBBl/view?usp=sharing)
 
 ---
 
