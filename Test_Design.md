@@ -1,4 +1,4 @@
-## 🧪 Test Design
+##  Test Design
 
 **Test Design** is the process of creating test cases based on system requirements, specifications, or other artifacts. 
 Its main goal is to define **what to test**, **how to test it**, **under what conditions**, and **what the expected results should be**.
