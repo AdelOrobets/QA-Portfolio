@@ -25,7 +25,7 @@ and hands-on experience with test design, bug reporting, and QA tools.
 - Web application for booking tickets  
 - Created [STP](https://docs.google.com/spreadsheets/d/1K7KlIUXoN2IewV5-ABJuDsxgoe0CfIZk/edit?usp=sharing&ouid=102737440051246418544&rtpof=true&sd=true), [Test Cases](https://docs.google.com/spreadsheets/d/1tRmffFVwMkwzR69gfZ2MNPRu9wdIMGta/edit?usp=drive_link&ouid=102737440051246418544&rtpof=true&sd=true)
 , [Test Data](TestData_TicketService.md) and Bug Reports  
-- Created autotests with selenium [for Registration Formד](https://github.com/adelorobets/Webinar_project_QA47/blob/master/src/main/java/experiments/DemogaPracticeFormTest.java) 
+- Created autotests with selenium [for Registration Form](https://github.com/adelorobets/Webinar_project_QA47/blob/master/src/main/java/experiments/DemogaPracticeFormTest.java) 
 - Performed manual testing and wrote test documentation  
 - Used Jira for documentation and issue tracking  
 
