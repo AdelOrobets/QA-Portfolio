@@ -13,7 +13,7 @@ and hands-on experience with test design, bug reporting and QA tools.
 - Manual testing of web and desktop applications
 - API Testing with Postman (Swagger, using variables, collections and HTTP requests)
 - Basic knowledge of SQL and Java
-- Working with DevTools for analyzing (HTML, JavaScript, CSS, Network, HTTP requests, Tokens, Logs, and Performance)
+- Working with DevTools for analyzing (HTML, JavaScript, CSS, XPath, Network, HTTP requests, Tokens, Logs and Performance)
 - Experience with Jira for task management and bug tracking
 - Currently learning test automation with Selenium - autotest [code for Registration Form](https://github.com/adelorobets/Webinar_project_QA47/blob/master/src/main/java/experiments/DemogaPracticeFormTest.java) or autotest [Screencast](https://drive.google.com/file/d/1Q9qj3p31CDJh19HVHowTQt1QwadsVBBl/view?usp=sharing)
 
