@@ -50,6 +50,14 @@ This portfolio highlights my testing projects, documentation samples, and hands-
 
 ---
 
+🌐 Languages
+
+- English – Working proficiency (technical reading & writing)
+- Hebrew – Upper-Intermediate (reading, writing, speaking)
+- Russian – Native
+
+---
+
 ## 📬 Contact
 
 - 📧 Email: orobetsadel@gmail.com  
