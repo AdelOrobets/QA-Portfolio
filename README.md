@@ -33,7 +33,7 @@ This portfolio highlights my testing projects, documentation samples, and hands-
 
 ## 📂 Projects
 
-### [🎟 Ticket Service](https://ticket-service-69443.firebaseapp.com/)  
+### [🎟 Ticket Service](https://ticket-service-69443.firebaseapp.com/) *(educational project)* 
 *Web application for booking tickets*
 
 - Performed manual testing and created QA documentation  
