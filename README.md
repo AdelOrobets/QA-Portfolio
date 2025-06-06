@@ -17,7 +17,7 @@ This portfolio highlights my testing projects, documentation samples, and hands-
 - Experience using browser **DevTools** for analysis (HTML, JavaScript, CSS, XPath, Network, HTTP, tokens, logs, performance)  
 - Familiar with **Jira** for task management and bug tracking  
 - Currently learning **test automation with Selenium**  
-  → Created autotests [for a Registration Form](https://github.com/adelorobets/Webinar_project_QA47/blob/master/src/main/java/experiments/DemogaPracticeFormTest.java) ([screencast](https://drive.google.com/file/d/1Q9qj3p31CDJh19HVHowTQt1QwadsVBBl/view?usp=sharing) available)
+  → Created autotests [for project PhoneBook]([https://github.com/adelorobets/Webinar_project_QA47/blob/master/src/main/java/experiments/DemogaPracticeFormTest.java)
 
 ---
 
