@@ -17,7 +17,7 @@ This portfolio highlights my testing projects, documentation samples, and hands-
 - Experience using browser **DevTools** for analysis (HTML, JavaScript, CSS, XPath, Network, HTTP, tokens, logs, performance)  
 - Familiar with **Jira** for task management and bug tracking  
 - Currently learning **test automation with Selenium**  
-  → Created autotests 📦 [View project on GitHub](https://github.com/adelorobets/QA_47_PhoneBook.git)
+  → Created autotests 📦 [View project on GitHub](https://github.com/AdelOrobets/PhoneBook_v1.git)
 
 
 ---
@@ -35,13 +35,59 @@ This portfolio highlights my testing projects, documentation samples, and hands-
 ## 📂 Projects
 
 ### [🎟 Ticket Service](https://ticket-service-69443.firebaseapp.com/) (educational project)
-*Web application for booking tickets*
+*A web application for booking tickets to events*
 
-- Performed manual testing and created QA documentation  
-- Developed [STP](https://docs.google.com/spreadsheets/d/1K7KlIUXoN2IewV5-ABJuDsxgoe0CfIZk/edit?usp=sharing&ouid=102737440051246418544&rtpof=true&sd=true), [Test Cases](https://docs.google.com/spreadsheets/d/1tRmffFVwMkwzR69gfZ2MNPRu9wdIMGta/edit?usp=drive_link&ouid=102737440051246418544&rtpof=true&sd=true), [Test Data](TestData_TicketService.md), and Bug Reports  
-- Created Selenium-based autotests  
-- Used **Jira** for issue tracking and documentation
+### Project Description
+Ticket Service is a ticket booking platform developed as part of an educational course. 
+The application allows users to search for events, book tickets, and manage their orders.
 
+### QA Responsibilities
+- Performed manual testing of both UI and API
+- Used **Postman** to test REST API endpoints and validate backend responses
+- Developed comprehensive QA documentation:
+  - [Software Test Plan (STP)](https://docs.google.com/spreadsheets/d/1K7KlIUXoN2IewV5-ABJuDsxgoe0CfIZk/edit?usp=sharing&ouid=102737440051246418544&rtpof=true&sd=true)
+  - [Test Cases](https://docs.google.com/spreadsheets/d/1tRmffFVwMkwzR69gfZ2MNPRu9wdIMGta/edit?usp=drive_link&ouid=102737440051246418544&rtpof=true&sd=true)
+  - [Test Data](TestData_TicketService.md)
+  - Bug Reports with screenshots and API response
+- Used **Jira** for issue tracking and test documentation
+
+### Tools & Technologies
+- Manual testing  
+- Postman (API testing)    
+- Google Sheets & Docs  
+- Chrome DevTools  
+- Git, GitHub
+- Jira
+
+---
+> ✅ *This project provided hands-on experience in manual testing, test documentation, and REST API validation using Postman.*
+---
+
+
+### [🎟 PhoneBook](https://telranedu.web.app/home) (educational project)
+*A responsive web and mobile application for managing personal contacts*
+
+### Project Description
+PhoneBook is a contact management system developed as part of an educational course. 
+The app allows users to register, log in, add, edit, and delete contacts.
+
+### QA Responsibilities
+- Analyzed functional requirements and created test scenarios
+- Developed automated UI tests using **Selenium**
+- Reported functional and UX bugs with detailed **error descriptions**
+- Wrote and maintained test documentation (test cases, test results)
+- Used **Jira** for issue tracking and test management
+
+### Tools & Technologies
+- Java, Selenium WebDriver  
+- TestNG   
+- Chrome DevTools  
+- Git, GitHub  
+- IntelliJ IDEA
+- Jira 
+
+---
+> ✅ *This project was developed for educational purposes to practice real-world QA automation and manual testing workflows.*
 ---
 
 ## 📄 Certificates
