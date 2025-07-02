@@ -53,9 +53,9 @@ These test combinations use valid data in all fields.
 
 | Combo ID | Name       | Surname      | Email               | Password                  | Phone        | 
 |----------|------------|--------------|---------------------|---------------------------|--------------|
-| VC01     | Alice      | Smith        | test@example.com    | Pass123!                  | 0501234567   |
-| VC02     | Al         | Sm           | test1@example.com   | P1!abcde                  | 0501234567   | 
-| VC03     | Alexander  | Smithsonian  | test2@example.com   | A1b2C3d4E5f6G7h8I9j!      | 0501234567   | 
+| VC01     | Alice      | Smith        | test@test.com       | Pass123!                  | 0501234567   |
+| VC02     | Al         | Sm           | test1@test.com      | P1!abcde                  | 0501234567   | 
+| VC03     | Alexander  | Smithsonian  | test2@test.com      | A1b2C3d4E5f6G7h8I9j!      | 0501234567   | 
 
 ---
 
@@ -65,15 +65,15 @@ These test combinations include at least one invalid input and are expected to f
 
 | Combo ID | Name       | Surname      | Email               | Password                  | Phone        | Invalid Field(s)              | 
 |----------|------------|--------------|---------------------|---------------------------|--------------|-------------------------------|
-| IC01     | A          | Smith        | test3@example.com   | Pass123!                  | 0501234567   | Name (too short)              | 
-| IC02     | Alice      | S            | test4@example.com   | Pass123!                  | 0501234567   | Surname (too short)           | 
-| IC03     | Alice      | Smith        | testexample.com     | Pass123!                  | 0501234567   | Email (missing @)             | 
-| IC04     | Alice      | Smith        | test5@example.com   | password                  | 0501234567   | Password (no digits/symbols)  | 
-| IC05     | Alice      | Smith        | test6@example.com   | Pass123!                  | 123456789    | Phone (too short)             | 
-| IC06     | Al!ce      | Smith        | test7@example.com   | Pass123!                  | 0501234567   | Name (special char)           | 
-| IC07     | Alice      | Sm!th        | test8@example.com   | Pass123!                  | 0501234567   | Surname (special char)        | 
+| IC01     | A          | Smith        | test3@test.com      | Pass123!                  | 0501234567   | Name (too short)              | 
+| IC02     | Alice      | S            | test4@test.com      | Pass123!                  | 0501234567   | Surname (too short)           | 
+| IC03     | Alice      | Smith        | test.com            | Pass123!                  | 0501234567   | Email (missing @)             | 
+| IC04     | Alice      | Smith        | test5@test.com      | password                  | 0501234567   | Password (no digits/symbols)  | 
+| IC05     | Alice      | Smith        | test6@test.com      | Pass123!                  | 123456789    | Phone (too short)             | 
+| IC06     | Al!ce      | Smith        | test7@test.com      | Pass123!                  | 0501234567   | Name (special char)           | 
+| IC07     | Alice      | Sm!th        | test8@test.com      | Pass123!                  | 0501234567   | Surname (special char)        | 
 | IC08     | Alice      | Smith        | test@.com           | Pass123!                  | 0501234567   | Email (missing domain)        | 
-| IC09     | Alice      | Smith        | test9@example.com   | A1!b2c3d4e5f6g7h8i9j0K    | 0501234567   | Password (too long)           | 
-| IC10     | Alice      | Smith        | test10@example.com  | Pass123!                  | 05012abc67   | Phone (letters inside)        | 
+| IC09     | Alice      | Smith        | test9@test.com      | A1!b2c3d4e5f6g7h8i9j0K    | 0501234567   | Password (too long)           | 
+| IC10     | Alice      | Smith        | test10@test.com     | Pass123!                  | 05012abc67   | Phone (letters inside)        | 
 | IC11     | A          | S            | te st@gmail.com     | pass1234                  | 12345678901  | All fields invalid            | 
 
