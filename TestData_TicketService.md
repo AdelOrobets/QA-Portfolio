@@ -29,8 +29,8 @@ Each test case checks both valid and invalid inputs to ensure the form handles d
 | TC10  | Surname    | Smithsonian                    | ✅ Valid                         | BVA Upper Bound         |
 | TC11  | Surname    | Smithsonian123456789           | ❌ Invalid (too long)            | BVA +1                  |
 | TC12  | Surname    | Sm!th                          | ❌ Invalid (special chars)       | EC Negative             |
-| TC13  | Email      | test@example.com               | ✅ Valid                         | EC Positive             |
-| TC14  | Email      | testexample.com                | ❌ Invalid (missing @)           | EC Negative             |
+| TC13  | Email      | test@test.com                  | ✅ Valid                         | EC Positive             |
+| TC14  | Email      | test.com                       | ❌ Invalid (missing @)           | EC Negative             |
 | TC15  | Email      | test@.com                      | ❌ Invalid (missing domain)      | EC Negative             |
 | TC16  | Email      | te st@gmail.com                | ❌ Invalid (space)               | EC Negative             |
 | TC17  | Password   | Pass123!                       | ✅ Valid                         | EC Positive             |
