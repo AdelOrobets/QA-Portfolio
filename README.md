@@ -74,7 +74,7 @@ The app allows users to register, log in, add, edit, and delete contacts.
 ### QA Responsibilities
 - Analyzed functional requirements and created test scenarios
 - Developed automated UI tests using **Selenium**
-- Reported [functional and UX bugs]([TestData_TicketService.md](https://docs.google.com/spreadsheets/d/1sksk0nmhPSped2KE35QQJ5346KzXd1Fd/edit?usp=sharing&ouid=102737440051246418544&rtpof=true&sd=true) with detailed **error descriptions** 
+- Reported [functional and UX bugs](https://docs.google.com/spreadsheets/d/1sksk0nmhPSped2KE35QQJ5346KzXd1Fd/edit?usp=sharing&ouid=102737440051246418544&rtpof=true&sd=true) with detailed **error descriptions** 
 - Wrote and maintained test documentation (test cases, test results)
 - Used **Jira** for issue tracking and test management
 
